@@ -21,6 +21,9 @@
     <ClInclude Include="__vm\.rpi-arduino-serial.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="rpi-arduino-serial.ino" />
