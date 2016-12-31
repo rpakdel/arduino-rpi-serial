@@ -15,11 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="RpiSerial_new.ino" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="__vm\.RpiSerial_new.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.rpi-arduino-serial.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rpi-arduino-serial.ino" />
   </ItemGroup>
 </Project>
