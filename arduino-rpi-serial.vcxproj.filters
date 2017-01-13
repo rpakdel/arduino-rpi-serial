@@ -15,17 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.RpiSerial_new.vsarduino.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="__vm\.rpi-arduino-serial.vsarduino.h">
+    <None Include="arduino-rpi-serial.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.arduino-rpi-serial.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="rpi-arduino-serial.ino" />
   </ItemGroup>
 </Project>

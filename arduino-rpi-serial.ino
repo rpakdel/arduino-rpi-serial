@@ -93,13 +93,13 @@ void readPTA()
         radio.read(&pta, sizeof(PTA));
         //PrintPTA(pta, Serial);
 
-        char pressureStr[7 + 1];
+        char pressureStr[9 + 1];
         dtostrf(pta.pressure, 7, 2, pressureStr);
 
-        char tempStr[5 + 1];
+        char tempStr[7 + 1];
         dtostrf(pta.temperature, 5, 2, tempStr);
 
-        char altStr[5 + 1];
+        char altStr[7 + 1];
         dtostrf(pta.altitude, 5, 2, altStr);
 
         char buffer[128];
